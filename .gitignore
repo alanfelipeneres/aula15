@@ -1,0 +1,91 @@
+# Dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Diretórios de build
+dist/
+build/
+coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de configuração locais
+*.local
+
+# Testes
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+
+# Gatsby
+.cache/
+public/
+
+# Remix
+.remix/
+
+# Vite
+vite.svg
+
+# Docker
+docker-compose.override.yml
+
+# Arquivos de certificados
+*.pem
+*.key
+*.crt
+
+# Banco de dados local
+*.sqlite
+*.sqlite3
+
+# Arquivos compactados
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Relatórios
+reports/
