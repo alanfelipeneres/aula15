@@ -34,8 +34,8 @@ jobs:
 
       - name: Build Image
         run: |
-          docker build -t usuario/aula-devops:1.0 .
+          docker build -t alanfelipeneres/aula-devops:1.0 .
 
       - name: Push Image
         run: |
-          docker push usuario/aula-devops:1.0
+          docker push alanfelipeneres/aula-devops:1.0
